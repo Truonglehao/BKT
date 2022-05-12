@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -50,7 +50,7 @@
                            <li><a href="order.html">Đặt hàng thương mại</a></li>
                            <li><a href="menu.html">Menu </a></li>
                            <li><a href="#">Giới thiệu</a></li>
-                           <li><a class="menu_active" href="#">Liên hệ</a></li>
+                           <li><a href="#">Liên hệ</a></li>
                            <li><a href="#">Tuyển dụng</a></li>
                            <li class="cartimg">
                             <li><a href="shopping_cart.html">
@@ -70,73 +70,42 @@
         </div>
         
     </section>
-        
-    </section>
     <section id="main">
         <div id="body_content">
             <div class="content-title">
-                <h2 class="page_title">Liên hệ</h2>
+                <h2 class="page_title">Login or Create an Account</h2>
             </div>
-            <div id="main_contact">
-                <div id="content_left">
-                    <h2 id="margintest">chúng tôi muốn được lắng nghe từ các bạn...</h2>
-                    <p class="pfontsizeleft">khách hàng là nhân tố rất quan trọng với chúng tôi. vì vậy nếu bạn có những suy nghĩ. ý
-                        tưởng hoặc thông tin phản hồi để chia sẽ, chúng tôi rất quan tâm để lắng nghe
-                    </p>
-                    <p class="pfontsizeleft">Sử dụng form bên cạnh gửi cho chúng tôi ý kiến của bạn hoặc gửi mail phản hồi trục 
-                        tiếp đến BỘ PHẬN CSKH: <a href="#">abc@gmail.com</a>
-                    </p>
+            <div id="Incontent">
+                <div id="cLeft">
+                    <h2 class="tilteLogin">Registered Customers</h2>
+                    <p>If you have an account with us, log in using your email address.</p>
+                    <div class="username">
+                        <span class="title-account">Phone No. / E-mail</span>
+                        <input type="email" class="txtEmail input-account" name="Email" spellcheck="false">
+                    </div>
+                    <div class="password">
+                      <span class="title-account">Password </span>
+                      <input type="password" class="txtPasswd input-account" name="Passwd" >
+                    </div>
+                    <div class="forgot-password">
+                       <a href="#">Forgot Your Password?</a>
+                       <button class="btnLogin">Submit</button>
+                    </div>
                 </div>
-                <div id="content_right">
-                    <form action="" class="form-contact" name="contact" method="">
-                        <div class="inf-branch">
-                            <label for="address">Vui lòng chọn một thành phố mà bạn muốn liên hệ</label>
-                            <div class="selection-branch">
-                                <div class="content-select-branch">
-                                  <input type="text" value="Chọn chi nhánh..." class="input-branch"> 
-                                  <a class="icon-selector-branch"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                                </div>
-                                <select class="dropdown_branch">
-                                  <option>Tiền Giang </option>
-                                  <option>Thành phố Hồ Chí Minh</option>
-                                  <option>Hà Nội</option>
-                              </select>
-                            </div>
-                        </div>
-                        <div class="inf-name">
-                            <label>Họ Và Tên (*)</label>
-                            <input type="text" id="name" placeholder="Nhập họ và tên...">
-                        </div>
-                        <div class="inf-email">
-                           <label>Email</label>
-                           <input type="text" id="email" placeholder="Nhập email...">
-                        </div>
-                        
-                        <div class="inf-phone">
-                          <label>Số Điện Thoại (*)</label>
-                          <input type="text" id="phone" placeholder="Nhập số điện thoại...">
-                        </div>
-                        <div class="inf-address">
-                          <label>Địa chỉ</label>
-                          <input type="text" id="address" placeholder="Nhập địa chỉ...">
-                       </div>
-                       <div class="inf-content">
-                         <label>Nội dung</label>
-                         <input type="text" id="content" placeholder="Nhập nội dung...">
-                      </div>
-                      <div class="inf-submit">
-                         <button class="btn-submit" type="submit" value="Submit">Gửi</button>
-                     </div>
-                       </div>
-                       
-                      </div>
-                      
- 
-                    </form>
+                <div id="cRight">
+                 <h2 class="tilteLogin">New Customers</h2>
+                 <p>By creating an account with our store, you will be able to move through the checkout process faster, 
+                     store multiple shipping addresses, view and track your orders in your account and more.
+                 </p>
+                 <div class="register-account">
+                     <button class="btnRegister"><a href="dangky.html" style="color: white;">Register</a></button>
+                 </div> 
                 </div>
             </div>
         </div>
+     </section>
     </section>
+  
  	<section id="footer">
 		<div class="left-footer">
 	 		<ul>
